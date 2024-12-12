@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML</title>
+</head>
+<style>
+    body {
+        background-color: rgb(160, 49, 127);
+    }
+    h1 {
+        color: aliceblue;
+    }
+</style>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+
+    <center>
+        <video width="500" poster="imagens/49291.png" controls loop>
+            <source src="midia/Pato andandoMP4.mp4" type="video/mp4">
+            <source src="midia/Pato andando WEBM.webm" type="video/webm">
+            <source src="midia/Pato andandoOGV.ogv" type="video/ogg">
+            <p>Seu video não tem compatividadecom a rprodução de vídeos.</p>
+        </video>
+    </center>
+
+    <h1>Inserindo vídeos do YouTube</h1>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-1rzOP7TpOk?si=veHw-22nvBxaedeT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/43835065?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="569" height="320" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" title="MTV Night Videos"></iframe>
+</body>
+</html>
