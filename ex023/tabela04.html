@@ -4,8 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table  {
+            width: 600px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Exercícios de Tabelas</h1>
+    <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Mulheres</th>
+                <td>Jéssica</td>
+                <td>grey's anatomy</td>
+                <td>Big Bang: A Teoria</td>
+                <td>Friends</td>
+            </tr>
+            <tr>
+                <td>Milena</td>
+                <td>Blue</td>
+                <td>Divetida Mente</td>
+                <td>Turma da Monica</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>Frozen</td>
+                <td>Moana</td>
+                <td>Valente</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Homens</th>
+                <td>Joao M</td>
+                <td>Piratas do caribe</td>
+                <td>Carros</td>
+                <td>Kung Fu Panda</td>
+            </tr>
+            <tr>
+                <td>Marcelo</td>
+                <td>Grande Mestre</td>
+                <td>Bang-Bang</td>
+                <td>O Protetor</td>
+            </tr>
+            <tr>
+                <td>Jonathan</td>
+                <td>Pantera negra</td>
+                <td>Um Maluco no pedaço</td>
+                <td>Tres espiãs Demais</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4" scope="row">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 </html>
