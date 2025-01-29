@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 10px;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        .destaque {
+            background-color: rgb(0, 255, 42);
+        }
+
+        col.cnome{
+            background-color: rgb(9, 255, 0);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+
+    <table>
+        <colgroup>
+        <col class="cnome">
+        <col class="csexo">
+        <col class="cidade">
+        <col class="cprof">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Jessica</td>
+            <td>F</td>
+            <td>27</td>
+            <td>Atendente</td>
+        </tr>
+        <tr>
+            <td>Joao Marcos</td>
+            <td>M</td>
+            <td>27</td>
+            <td>Dev</td>
+        </tr>
+        <tr>
+            <td>Wanderleia</td>
+            <td>F</td>
+            <td>54</td>
+            <td>Educadora</td>
+        </tr>
+        <tr>
+            <td>Marcelo</td>
+            <td>M</td>
+            <td>59</td>
+            <td>Metalustico</td>
+        </tr>
+        <tr>
+            <td>Milena</td>
+            <td>F</td>
+            <td>7</td>
+            <td>Biologa</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>4</td>
+            <td>Juiza</td>
+        </tr>
+    </table>
+</body>
+</html>
