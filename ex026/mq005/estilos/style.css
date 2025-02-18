@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 * {
     font-family: Arial, Helvetica, sans-serif;
 
@@ -58,9 +59,10 @@ menu > ul > li a:hover {
 }
 
 main {
-    width: 90%;
+    width: 90vw;
     background-color: white;
-    margin: 10px;
+    margin: auto;
+    margin-top: 10px;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.438);
