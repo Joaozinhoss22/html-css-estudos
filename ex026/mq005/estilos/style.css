@@ -21,8 +21,8 @@ header > h1 {
     text-align: center;
 }
 
-.material-symbols-outlined {
-    background-color: rgb(87, 86, 86);
+i#burguer {
+    background-color: rgb(48, 48, 48);
     color: white;
     display: block;
     text-align: center;
@@ -30,13 +30,13 @@ header > h1 {
     cursor: pointer;
 }
 
-.material-symbols-outlined:hover{
+i#burguer:hover {
     background-color: white;
     color: black;
 }
 
 menu {
-    display: block;
+    display: none;
 }
 
 menu > ul {
